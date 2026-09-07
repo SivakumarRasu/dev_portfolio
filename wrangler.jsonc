@@ -1,8 +1,11 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
     "name": "dev-portfolio",
-    "compatibility_date": "2024-09-23",
+    "compatibility_date": "2026-09-07",
     "assets": {
         "directory": "./dist"
+    },
+    "vars": {
+        "VITE_WEB_FORM_KEY": "d2d195a0-4159-42dd-85ab-783a7a0645e3"
     }
 }
